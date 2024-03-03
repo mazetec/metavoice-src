@@ -16,7 +16,7 @@ TTS_MODEL = TTS()
 
 #### setup interface
 RADIO_CHOICES = ["Preset voices", "Upload target voice (atleast 30s)"]
-MAX_CHARS = 220
+MAX_CHARS = 512
 PRESET_VOICES = {
     # female
     "Bria": "https://cdn.themetavoice.xyz/speakers%2Fbria.mp3",
