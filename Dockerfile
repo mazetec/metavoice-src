@@ -1,4 +1,5 @@
 FROM nvidia/cuda:12.1.0-devel-ubuntu22.04 as base
+#FROM nvidia/cuda:11.7.1-cudnn8-devel-ubuntu22.04
 
 # Install system dependencies in a single RUN command to reduce layers
 # Combine apt-get update, upgrade, and installation of packages. Clean up in the same layer to reduce image size.
